@@ -1,0 +1,11 @@
+﻿//01. Faça um programa que leia um número inteiro e o imprima.
+#include <stdio.h>
+
+int main() {
+    int num;
+    printf("Digite um número inteiro: ");
+    scanf("%d", &num);
+    printf("O número digitado por você foi: %d", num);
+
+    return 0;
+}
