@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Quintessential&family=Righteous&display=swap');
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%,  #8E5D52 85.61%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: beige;
+}
+
+a:hover {
+    color: #FF4500;
+}
+
+.cabecalho-menu {
+ font-family: 'Nunito Sans';
+ font-weight: 400;
+ font-size: 20px;
+ display: flex;
+ gap: 30px;
+ padding-left: 45px;
+ color: beige;
+ text-shadow: 2px 2px #000000
+}
+
+.conteudo {
+    border-top: 0.4px solid rgb(255, 255, 255);
+    color:beige;
+}
+
+.conteudo-principal {
+    display: flex;
+    padding-top: 25px;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: space-around;
+    text-shadow: 2px 2px #000000;
+
+}
+ 
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteudo-principal-titulo {
+    font-family: Righteous;
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+}
+
+.conteudo-principal-subtitulo {
+    text-align: center;
+    font-family: 'Nunito Sans';
+    font-weight: 150;
+}
+
+.conteudo-principal-botao {
+    height: 60px;
+    width: 180px;
+    background-color: beige;
+    border: none;
+    box-shadow: 4px 5px 4px #000000;
+    border-radius: 20px;
+}
+
+.conteudo-principal-botao:hover {
+    background-color:rgb(241, 241, 133);
+}
+
+.conteudo-principal-imagem {
+    border-radius: 50px;
+    box-shadow: 4px 5px 4px #000000;
+}
+
+.conteudo-principal2 {
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+    font-family: 'Nunito Sans';
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: beige;
+}
+
+.conteudo-principal-item1 {
+    border-top: 0.4px solid rgb(255, 255, 255);
+    padding-top: 10px;
+}
+
+.rodape-botao {
+    height: 60px;
+    width: 180px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px #000000;
+    
+}
+
+.rodape-botao:hover {
+    background-color:rgb(241, 241, 133);
+}
